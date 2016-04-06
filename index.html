@@ -52,10 +52,10 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#main-slider">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="AboutUs">About Us</a></li>
+          <li><a href="#somethingelse">About Us</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact us</a></li>
+          <li><a href="#something">Contact Me</a></li>
         </ul>
       </nav><!-- /.navbar-collapse -->
     </div><!-- /.container -->
@@ -164,7 +164,7 @@
             <img src="images/tab.jpg" alt="Tab Image">
           </div><!-- /.tab-image -->
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6" id="somethingelse">
           <div class="about-work wow animated fadeInRight" data-wow-delay=".5s">
             <h2 class="section-title"> <span>Learn</span> About The Goal Of This Website</h2><!-- /.section-title -->
             <p class="description">
@@ -190,50 +190,16 @@
 
 
 
-  <!-- Subscribe Section -->
-
-  <section id="subscribe-section" class="subscribe-section text-center" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="0">
-    <div class="bg-overlay">
-      <div class="section-padding">
-        <div class="container">
-          <div class="wow animated fadeInUp" data-wow-delay=".5s">
-            <h2 class="section-title">Polmo WordPress Version Is Cooming Soon!</h2><!-- /.section-title -->
-            <p class="section-description">
-              To get Polmo WordPress version subscribe now. Polmo theme is ablolutely free for your business or personal use.
-            </p><!-- /.section-description -->
-
-            <form class="subscribe" method="post">
-              <p class="alert-success"></p>
-              <p class="alert-warning"></p>
-
-              <div class="subscribe-hide">
-                <input class="subscribe-email" type="email" id="subscribe-email" name="subscribe-email" required>
-                <button  type="submit" id="subscribe-submit" class="btn">Subscribe Now</button>
-                <span id="subscribe-loading" class="btn"> <i class="fa fa-refresh fa-spin"></i> </span>
-                <div class="subscribe-error"></div>
-              </div><!-- /.subscribe-hide -->
-              <div class="subscribe-message"></div>
-            </form><!-- /.subscribe -->
-          </div>
-        </div><!-- /.container -->
-      </div><!-- /.section-padding -->
-    </div><!-- /.bg-overlay -->
-  </section><!-- /#subscribe-section -->
-
-  <!-- Subscribe Section -->
-
-
-
 
   <!-- Portfolio Section -->
 
-  <section id="portfolio" class="portfolio text-center">
-    <div class="portfolio-bottom">
+  <section id="portfolio"  class="subscribe-section text-center" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="0">
+    <div class="bg-overlay">
       <div class="section-padding">
         <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
-          <h2 class="section-title"><span>Further</span> Reading</h2><!-- /.section-title -->
+          <h1 class="section-title" style="color:blue;"><b>Further Reading</b></h1><!-- /.section-title -->
           <p class="section-description" >
-            Continue Reading About Virtual Worlds and Virtual World Economies
+            Continue Reading And Watching About Virtual Worlds and Virtual World Economies
           </p><!-- /.section-description -->
         </div><!-- /.section-top -->
 
@@ -248,18 +214,18 @@
                 <img src="images/project/1.jpg" data-at2x="images/project/1@2x.jpg" alt="Item Image">
               </a>
               <div class="item-details">
-                <h3 class="project-title">WordPress App Dev</h3>
-                <span class="category">WordPress</span>
+                <h3 class="project-title">Do Video-Game Worlds Need Government Regulation?</h3>
+                <span class="category">Giuliano Millan</span>
               </div><!-- /.item-details -->
             </div><!-- /.item -->
 
             <div class="item cat-2 cat-3">
-              <a href="images/project/2.jpg" class="image-popup-vertical-fit">
+              <a href="https://www.youtube.com/watch?v=W39TtF14i8I" class="image-popup-vertical-fit">
                 <img src="images/project/2.jpg" data-at2x="images/project/2@2x.jpg" alt="Item Image">
               </a>
               <div class="item-details">
-                <h3 class="project-title">Joomla Template Design</h3>
-                <span class="category">Joomla</span>
+                <h3 class="project-title">Inflation In Virtual Worlds</h3>
+                <span class="category">Extra Credits</span>
               </div><!-- /.item-details -->
             </div><!-- /.item -->
 
@@ -414,7 +380,7 @@
   <section id="testimonial" class="testimonial text-center" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="0">
     <div class="pattern-overlay">
       <div class="section-padding">
-        <div class="container">
+        <div class="container"  id="something">
           <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
             <h2 class="section-title">Contact Me</h2><!-- /.section-title -->
           </div><!-- /.section-top -->
@@ -479,11 +445,9 @@
                 <div class="widget-details">
                   <nav>
                     <ul>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Our Blog</a></li>
-                      <li><a href="#">The Team</a></li>
-                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#somethingelse">About Us</a></li>
+                      <li><a href="blog.html">Our Blog</a></li>
+                      <li><a href="#something">Contact Me</a></li>
                     </ul>
                   </nav>
                 </div><!-- /.widget-details -->
@@ -496,11 +460,8 @@
                 <div class="widget-details">
                   <div class="title-list">
                     <ul>
-                      <li><a href="#" class="entry-title">TopClass WordPress Theme</a></li>
-                      <li><a href="#" class="entry-title">Foody HTML5 Template</a></li>
-                      <li><a href="#" class="entry-title">Memorials HTML5 Template</a></li>
-                      <li><a href="#" class="entry-title">Mama HTML5 Template</a></li>
-                      <li><a href="#" class="entry-title">Open HTML5 Template</a></li>
+                      <li><a href="second-post.html" class="entry-title">Virtual Economies Introduction</a></li>
+                      <li><a href="single-post.html" class="entry-title">Comparing and Contrasting Real and Virtual Worlds</a></li>
                     </ul>
                   </div><!-- /.title-list -->
                 </div><!-- /.widget-details -->
@@ -527,41 +488,7 @@
               </div><!-- /.widget -->
             </div>
 
-            <div class="col-sm-3">
-              <div class="widget widget_subscribe">
-                <h3 class="widget-title">Tag Clouds</h3><!-- /.widget-title -->
-                <div class="widget-details">
-                  <ul class="taglist">
-                    <li><a href="#">wordpress</a></li>
-                    <li><a href="#">joomla</a></li>
-                    <li><a href="#">css3</a></li>
-                    <li><a href="#">UI/UX</a></li>
-                    <li><a href="#">drupal</a></li>
-                    <li><a href="#">facebook</a></li>
-                    <li><a href="#">PHP</a></li>
-                  </ul>
-                </div><!-- /.widget-details -->
-              </div><!-- /.widget -->
-              <div class="widget widget_subscribe">
-                <h3 class="widget-title">Subscribe Us</h3>
-                <div class="widget-details">
-                  <form class="subscribe" method="post">
-                    <p class="alert-success"></p>
-                    <p class="alert-warning"></p>
-
-                    <div class="subscribe-hide">
-                      <input class="subscribe-email" type="email" id="subscribe-email" name="subscribe-email" required>
-                      <button  type="submit" id="subscribe-submit" class="btn"><i class="fa fa-envelope"></i></button>
-                      <span id="subscribe-loading" class="btn"> <i class="fa fa-refresh fa-spin"></i> </span>
-                      <div class="subscribe-error"></div>
-                    </div><!-- /.subscribe-hide -->
-                    <div class="subscribe-message"></div>
-                  </form><!-- /.subscribe -->
-                </div><!-- /.widget-details -->
-              </div><!-- /.widget -->
-            </div>
-
-          </div><!-- /.row -->
+            </div><!-- /.row -->
         </div><!-- /.container -->
       </div><!-- /.section-padding -->
     </div><!-- /.footer-top -->
@@ -573,9 +500,8 @@
             <nav class="widget-menu">
               <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#something">Contact</a></li>
               </ul>
             </nav>
           </div><!-- /.widget -->
